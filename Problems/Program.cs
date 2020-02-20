@@ -4,9 +4,9 @@ namespace Problems
 {
     class Program
     {
-        void Prefix(string input)
+        static void Prefix(string input)
         {
-            Console.WriteLine(input.Length + input.Split().Length + ",:" + input);
+            Console.WriteLine(input.Length + "," + input.Split().Length + ":" + input);
         }
         static void Main(string[] args)
         {
